@@ -1,0 +1,34 @@
+
+#eventView {
+    background-color: white;
+}
+
+#eventTitle {
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+#eventContent {
+    margin-top: 20px;
+}
+
+#eventCol {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+th.col-4 {
+    padding-left: 0;
+}
+
+td.col-4 {
+    padding-left: 0;
+}
+.col-lg-12 img {
+    width: 100%;
+}
+
+.col-lg-12 {
+    padding-left: 15px;
+}
+

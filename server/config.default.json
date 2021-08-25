@@ -1,0 +1,16 @@
+{
+  "database": {
+    "production": {
+      "host": "mysql",
+      "database": "supertestdb",
+      "user": "root",
+      "password": "secret"
+    },
+    "testing": {
+      "host": "mysql",
+      "database": "supertestdb",
+      "user": "root",
+      "password": "secret"
+    }
+  }
+}

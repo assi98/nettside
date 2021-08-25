@@ -1,0 +1,72 @@
+{
+  "name": "harmoni_server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "jest --runInBand --coverage"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./**/*.js",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ],
+    "coverageReporters": [
+      "text",
+      "html",
+      "json"
+    ],
+    "coverageDirectory": "./coverage/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.8.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "latest",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "google-map-react": "^1.1.5",
+    "google-maps-react": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "leaflet": "^1.6.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mv": "^2.1.1",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.4.2",
+    "react-calendar": "^2.19.2",
+    "react-datetime": "^2.16.3",
+    "react-datetime-picker": "^2.9.0",
+    "react-geocode": "^0.2.1",
+    "react-google-autocomplete": "^1.1.2",
+    "react-google-maps": "^9.4.5",
+    "recompose": "^0.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.5.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "reload": "^3.0.3"
+  }
+}

@@ -1,0 +1,38 @@
+#overview-header{
+    background-color: var(--color-dark-blue);
+}
+
+#overview-title{
+    background-color: var(--color-dark-blue);
+    color: var(--color-light-beige);
+    padding: 20px 20px 20px 20px !important;
+    margin: 0;
+}
+
+.nav-item-event-overview > .nav-item{
+    color: var(--color-meduim-blue) !important;
+    background-color: var(--color-dark-blue) !important;
+    border: 1px #e9ecef !important;
+    text-decoration: none;
+}
+
+.nav-item-event-overview > a {
+    color: var(--color-meduim-blue)
+}
+
+.nav-item-event-overview > a:active {
+    color: var(--color-meduim-blue)
+}
+
+.nav-link.active {
+    background-color: var(--color-dark-blue) !important;
+    color: var(--color-light-beige)!important;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-header {
+    padding: 12px 10px 12px 10px;
+}

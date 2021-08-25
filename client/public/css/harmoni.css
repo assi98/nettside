@@ -1,0 +1,70 @@
+.suggestionsContainer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 280px;
+    background-color: #fff;
+    font-size: 1rem;
+    z-index: 1000;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    list-style: none;
+    text-align: left;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    color: #212529;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.react-autosuggest__suggestions-list {
+    padding: 0px;
+    margin: 8px;
+    list-style-type: none;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+textarea:invalid {
+    border: 2px solid red;
+}
+
+select:invalid {
+    border: 2px solid red;
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 200px;
+}
+
+#mapid { height: 180px; }

@@ -1,0 +1,37 @@
+/*CSS for home.js*/
+
+.image-header {
+    top: 0;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+#frontpage {
+    position: relative;
+    top: 0;
+}
+
+#frontpage-card-container{
+    border-color: transparent;
+    background-color: var(--color-light-light-blue);
+}
+#frontpage-card-body{
+    padding: 15px 15px 15px 15px;
+    border-color: var(--color-medium-dark-beige);
+}
+
+#frontpageCard {
+    background: var(--color-light-beige) !important;
+    border: 5px 5px 5px 5px var(--color-light-blue);
+    margin: 10px 5px 10px 5px;
+}
+
+#frontpageCard:hover {
+    -webkit-box-shadow: -2px 3px 47px 3px rgba(33,57,63,0.22);
+}
+
+#wrap {
+    position: absolute;
+    top: 0
+}
+
